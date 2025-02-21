@@ -2,7 +2,6 @@ class MathUtils:
   """
   Class that implements mathematical operations.
   """
-
   @staticmethod
   def add(a: int | float, b: int | float) -> int | float:
     """
@@ -29,3 +28,4 @@ class MathUtils:
   @staticmethod
   def multiply(a: int | float, b : int | float) -> int | float:
     return a * b
+
