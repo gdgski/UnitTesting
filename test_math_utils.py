@@ -34,7 +34,7 @@ class TestMathUtils(unittest.TestCase):
 
     def test_multiply(self):
         """
-        Check for multiplicaation, incorporated negative numbers and decimals.
+        Check for multiplication, incorporated negative numbers and decimals.
         """
         self.assertEqual(MathUtils.multiply(4, 2), 8)
         self.assertEqual(MathUtils.multiply(2, 2.5), 5)
